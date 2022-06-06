@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit trunk//EN" "http://www.gwtproject.org/doctype/2.8.0/gwt-module.dtd">
+<module>
+	<inherits name="com.google.gwt.i18n.I18N"/>
+	<inherits name='com.badlogic.gdx.ai' />
+	<inherits name='com.google.gwt.uibinder.UiBinder' />
+	<inherits name='com.google.gwt.user.UI' />
+	<inherits name='com.google.gwt.media.Media' />
+	<inherits name='com.pddgame.game.GdxDefinitionSuperdev' />
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
+	<source path="com/pddgame/game" />
+	<extend-configuration-property name="gdx.reflect.include" value="com.badlogic.gdx.graphics.g2d.BitmapFont"/>
+	<extend-configuration-property name="gdx.reflect.include" value="com.badlogic.gdx.utils.DelayedRemovalArray"/>
+	<extend-configuration-property name="gdx.reflect.include" value="com.badlogic.gdx.scenes.scene2d.ui.Label" />
+	<extend-configuration-property name="gdx.reflect.include" value="com.badlogic.gdx.maps.objects.RectangleMapObject" />
+</module>

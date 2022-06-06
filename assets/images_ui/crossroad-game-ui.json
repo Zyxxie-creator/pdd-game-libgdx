@@ -1,0 +1,45 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    green: { a: 1, b: 0, g: 1, r: 0 },
+    white: { a: 1, b: 1, g: 1, r: 1 },
+    red: { a: 1, b: 0, g: 0, r: 1 },
+    gray: { a: 1, b: 0.74, g: 0.74, r: 0.74 },
+    black: { a: 1, b: 0, g: 0, r: 0 },
+    brown: {a: 1, b: 0.68, g: 0.68, r: 0.68},
+    yellow: {a: 1, b: 0.216, g: 0.773, r: 0.973}
+  },
+
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    default-font: { file: images/troika.fnt }
+  },
+
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: { font: default-font, fontColor: white },
+    brown_label: { font: default-font, fontColor: brown },
+    yellow_label: { font: default-font, fontColor: yellow },
+    red_label: { font: default-font, fontColor: red }
+  },
+
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    info_btn: {
+      up: info_btn_up,
+      down: info_btn_dn
+    },
+    next_btn: {
+      up: next_btn_up,
+      down: next_btn_dn
+    }
+    close_btn: {
+      up: close_btn_up,
+      down: close_btn_dn
+    }
+    help_btn: {
+      up: help_up,
+      down: help_down
+    }
+    replay_btn: {
+      up: replay_up,
+      down: replay_down
+    }
+  }
+}

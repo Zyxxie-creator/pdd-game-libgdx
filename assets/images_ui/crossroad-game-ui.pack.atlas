@@ -1,0 +1,132 @@
+
+crossroad-game-ui.pack.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+accident_lbl
+  rotate: false
+  xy: 407, 126
+  size: 270, 77
+  orig: 270, 77
+  offset: 0, 0
+  index: -1
+answer_numb_back
+  rotate: false
+  xy: 679, 91
+  size: 180, 33
+  orig: 180, 33
+  offset: 0, 0
+  index: -1
+close_btn_dn
+  rotate: false
+  xy: 861, 64
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+close_btn_up
+  rotate: false
+  xy: 913, 64
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+dialog_back
+  rotate: false
+  xy: 2, 17
+  size: 403, 227
+  orig: 403, 227
+  offset: 0, 0
+  index: -1
+dialog_back_bottom
+  rotate: false
+  xy: 407, 229
+  size: 450, 15
+  orig: 450, 15
+  offset: 0, 0
+  index: -1
+dialog_back_middle
+  rotate: false
+  xy: 407, 217
+  size: 450, 10
+  orig: 450, 10
+  offset: 0, 0
+  index: -1
+dialog_back_top
+  rotate: false
+  xy: 407, 205
+  size: 450, 10
+  orig: 450, 10
+  offset: 0, 0
+  index: -1
+help_down
+  rotate: false
+  xy: 845, 2
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+help_up
+  rotate: false
+  xy: 897, 2
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+info_btn_dn
+  rotate: false
+  xy: 793, 28
+  size: 50, 61
+  orig: 50, 61
+  offset: 0, 0
+  index: -1
+info_btn_up
+  rotate: false
+  xy: 951, 183
+  size: 50, 61
+  orig: 50, 61
+  offset: 0, 0
+  index: -1
+next_btn_dn
+  rotate: false
+  xy: 679, 28
+  size: 55, 61
+  orig: 55, 61
+  offset: 0, 0
+  index: -1
+next_btn_up
+  rotate: false
+  xy: 736, 28
+  size: 55, 61
+  orig: 55, 61
+  offset: 0, 0
+  index: -1
+replay_down
+  rotate: false
+  xy: 949, 2
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+replay_up
+  rotate: false
+  xy: 965, 121
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+right_answer_lbl
+  rotate: false
+  xy: 407, 47
+  size: 270, 77
+  orig: 270, 77
+  offset: 0, 0
+  index: -1
+wrong_answer_lbl
+  rotate: false
+  xy: 679, 126
+  size: 270, 77
+  orig: 270, 77
+  offset: 0, 0
+  index: -1

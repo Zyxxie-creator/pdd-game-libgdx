@@ -1,0 +1,72 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    green: { a: 1, b: 0, g: 1, r: 0 },
+    white: { a: 1, b: 1, g: 1, r: 1 },
+    red: { a: 1, b: 0, g: 0, r: 1 },
+    gray: { a: 1, b: 0.74, g: 0.74, r: 0.74 },
+    black: { a: 1, b: 0, g: 0, r: 0 },
+    brown: {a: 1, b: 0.68, g: 0.68, r: 0.68},
+    yellow: {a: 1, b: 0.216, g: 0.773, r: 0.973}
+  },
+
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    default-font: {
+      file: images/troika.fnt
+      scaledSize: 20
+    }
+  },
+
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: { font: default-font, fontColor: white },
+    brown_label: { font: default-font, fontColor: brown },
+    yellow_label: { font: default-font, fontColor: yellow },
+    red_label: { font: default-font, fontColor: red }
+  },
+
+//  com.badlogic.gdx.scenes.scene2d.ui.Image: {
+//    back: {
+//      drawable: logo
+//    },
+//    stat_logo: {
+//      drawable: stat_logo
+//    },
+//    row_back: {
+//      drawable: row_back
+//    },
+//  },
+
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    play: {
+      down: play_btn_dn,
+      up: play_btn_up
+    },
+    stat: {
+      down: statistic_btn_down,
+      up: statistic_btn_up
+    },
+    close_btn: {
+      down: close_btn_dn
+      up: close_btn_up
+    },
+    privacy: {
+      down: privacy_btn_down
+      up: privacy_btn_up
+    },
+    road_signs: {
+      down: road_signs_btn_down
+      up: road_signs_btn_up
+    },
+    practice_btn: {
+      up: practice_exam_btn_up,
+      down: practice_exam_btn_down
+    }
+    disable_ads: {
+      up: disable_ads_up
+      down: disable_ads_down
+    },
+    attention_btn: {
+      up: attention_up
+      down: attention_down
+    }
+  }
+}

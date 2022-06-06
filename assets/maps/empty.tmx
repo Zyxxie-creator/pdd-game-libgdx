@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="24" height="40" tilewidth="36" tileheight="36" infinite="0" nextlayerid="8" nextobjectid="71">
+ <tileset firstgid="1" name="new_tile_map" tilewidth="36" tileheight="36" tilecount="784" columns="28">
+  <image source="../map_tileset/new_tile_map.png" width="1024" height="1024"/>
+ </tileset>
+ <layer id="1" name="Road Map" width="24" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlsENwjAMRdNCBoEhgEOnAAboDD0zCMdce2eAjoYrEsmymsSpYyFELX2lSeWnH/cfOhpjRi9a+Lwxprew7kH2s3eHRC9lFPCnwO8K+Ll3Uv8F/M2/gn9ufnaI35H+JZaEj/1fQTfQPcJP3Y3jP1YSPmf+qarhX8L/B/+x/NLcSvOzhj/7P4JSa8NU67lBsHecPqssuK/jaG2vtn+Y0cRR678vmj+rT5Kf+XzISJuPRauEj2sgzxv/9/kn0Bl0UeLHshj2DyEf1xL/qcx/Mfn4/7OEz50//v9U4n/Ffy4/Nf3Tu9Sev5Bf5P8N3efrbg==
+  </data>
+ </layer>
+ <layer id="6" name="Tile Layer 2" width="24" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlUdSQkEURduxOacRI3PWFZizrkAUDGOngmLYg6io7EFUDHswYViGaQGeAVSh9T70K0qLsrj1z6jpU9T9r/sb45xRGIPxFL/5q8zlmXA/NEA+1BnjTl53CXtKoQzKLfxunAPQCAXg+eH3CXvaoB06LPzzOAehCQoFf1DYo+l/AecQNEOR4I9YOFLFg3MYWqBY8GfavxfnCLRCieCXoumfeQngNAnqLfZk0/zf0MkJ7MKaMP9SNP3f4oxAEHy/0P8dzlPYA7+lX9P/Pc4z2Id1S78mDzjP4QA2LP2a/mM4oxCCQG7+c/kHqYYaqHVY15wPKT3QC30O67bnw2Xk79c0zMCsw77k8xEynFvwGvlulvyaHOLdhEVjf7dp+j/CuwVLCr+m/2O827Cs8Gv6D/PswIrCr0ny/SndndL7zab5f6WXGETj87lq4df0/4b3ES7i/dv4NXnH+wSXCr+m/w+8z3Dl4Jfer6b/T7wvcK34/5r+081npqmASqgy6XtNRNN/J3RBt0nfayKa/idgEqbM916/AIwWj4k=
+  </data>
+ </layer>
+ <layer id="7" name="Tile Layer 3" width="24" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1jVSA1AURuGXlHgEGegJ7ivAHZbATIbgsgVct4BEkC0AMWQLSAxYAR5BCk5HR8O7BTP5Z772lPc9pX7mhAtueGBXakhpnA9+BBAU6IcQRgRRgX4cCSSREuibDEqZYYHVoL9fTbMGtagT6HfR7EYPegX6wzQdGMGoQH+O5jwWsCjQ36K5jR3sCvSPaB7jBF6B/iXNK1zjRlP/gc4jnvCMF7ziTVM/w6hUJrKQjRzkIs+op19Kx4YylKMClajS1G+m04JWtKEdHejU1Lf/ouSv8fTS+0ebwjRmMItizfdzDevYwKbSf5/3sI8DHAr0T3GGc1wI9GO4xR3uBfrv+MAnvgT6+bxZBShEkcD7W0+zAY1oEuj30ezHAAYF+mM0xzGBSYH+Es1lrGBVoO+k6YIbHoG+j6YfAQQF+iGaYUQQFejHaSaQREqgb+LPY4YFVk3/n29lcWTR
+  </data>
+ </layer>
+ <objectgroup id="2" name="Follow Path 2" visible="0">
+  <object id="2" name="1" x="559" y="873">
+   <ellipse/>
+  </object>
+  <object id="3" name="2" x="559" y="795">
+   <ellipse/>
+  </object>
+  <object id="4" name="3" x="564" y="763">
+   <ellipse/>
+  </object>
+  <object id="5" name="4" x="584" y="743">
+   <ellipse/>
+  </object>
+  <object id="53" name="5" x="636" y="737">
+   <ellipse/>
+  </object>
+  <object id="54" name="6" x="851" y="739">
+   <ellipse/>
+  </object>
+  <object id="55" name="7" x="949" y="737">
+   <ellipse/>
+  </object>
+  <object id="69" name="8" x="1073" y="846">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Follow Path 1" visible="0">
+  <object id="8" name="1" x="174" y="739">
+   <ellipse/>
+  </object>
+  <object id="9" name="2" x="290" y="740">
+   <ellipse/>
+  </object>
+  <object id="33" name="3" x="853" y="739">
+   <ellipse/>
+  </object>
+  <object id="59" name="4" x="978" y="737">
+   <ellipse/>
+  </object>
+  <object id="60" name="5" x="1043" y="604">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="road_signs" visible="0">
+  <object id="39" name="sign_1_1" x="539.246" y="838.191">
+   <ellipse/>
+  </object>
+  <object id="66" name="sign_1_2" x="539.84" y="889.214">
+   <ellipse/>
+  </object>
+  <object id="67" name="sign_2_1" x="281.754" y="852.023">
+   <ellipse/>
+  </object>
+  <object id="68" name="sign_2_2" x="226.53" y="845.261">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
